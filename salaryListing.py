@@ -33,3 +33,7 @@ if('Dallas' not in sal_info):
     sal_info['Dallas']=110666
 else:
     print('key exists')
+
+print(sal_info.get('Dallas'))
+print(sal_info.get('Portland'))
+
