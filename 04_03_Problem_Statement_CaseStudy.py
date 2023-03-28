@@ -24,3 +24,4 @@ print ("length of dictionary ",len(treeOrders))
 #use dict comprehension
 treeOrders10 = {k : v for k, v in treeOrders.items() if v > 10}
 print(treeOrders10)
+print(len(treeOrders10))
